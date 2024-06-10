@@ -1,3 +1,5 @@
+import React from "react";
+import { ListaDeNotas } from "./components/ListaNotas";
 
 function App() {
   return (
@@ -7,16 +9,7 @@ function App() {
       <textarea placeholder="Digite sua nota..."></textarea>
       <button>Criar</button>
     </form>
-    <ul>
-      <li>
-        <section>
-          <header>
-            <h3>Titulo</h3>
-          </header>
-          <p>texto</p>
-        </section>
-      </li>
-    </ul>
+    <ListaDeNotas></ListaDeNotas>
     </section>
   );
 }
